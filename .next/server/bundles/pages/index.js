@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -187,17 +187,17 @@ var Index = function Index(props) {
   return __WEBPACK_IMPORTED_MODULE_1_react__["createElement"](__WEBPACK_IMPORTED_MODULE_2__components_MyLayout__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 12
     }
   }, __WEBPACK_IMPORTED_MODULE_1_react__["createElement"]("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 13
     }
   }, "Batman TV Shows"), __WEBPACK_IMPORTED_MODULE_1_react__["createElement"]("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 14
     }
   }, props.shows.map(function (_ref) {
     var show = _ref.show;
@@ -205,19 +205,19 @@ var Index = function Index(props) {
       key: show.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 16
       }
     }, __WEBPACK_IMPORTED_MODULE_1_react__["createElement"](__WEBPACK_IMPORTED_MODULE_3_next_link___default.a, {
       as: "/p/".concat(show.id),
       href: "/post?id=".concat(show.id),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 17
       }
     }, __WEBPACK_IMPORTED_MODULE_1_react__["createElement"]("a", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
+        lineNumber: 18
       }
     }, show.name)));
   })));
@@ -259,7 +259,7 @@ __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default.a.mark(function
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index.tsx");

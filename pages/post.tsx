@@ -1,14 +1,21 @@
-import * as React from "react"
+import React from "react"
 import Layout from "../components/MyLayout"
 import fetch from "isomorphic-unfetch"
+import {NextSFC} from "next"
 
-const Post = (props) => (
-    <Layout>
-        <h1>{props.show.name}</h1>
-        <p>{props.show.summary.replace(/<[/]?p>/g, "")}</p>
-        <img src={props.show.image.medium}/>
-    </Layout>
-)
+interface Props {
+    show: any
+}
+
+const Post: NextSFC<Props> = (props) => {
+    return (
+        <Layout>
+            <h1>{props.show.name}</h1>
+            <p>{props.show.summary.replace(/<[/]?p>/g, "")}</p>
+            <img src={props.show.image.medium}/>
+        </Layout>
+    )
+}
 
 Post.getInitialProps = async (context) => {
     const { id } = context.query

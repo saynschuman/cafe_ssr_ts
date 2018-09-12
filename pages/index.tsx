@@ -2,8 +2,13 @@ import * as React from "react"
 import Layout from "../components/MyLayout"
 import Link from "next/link"
 import fetch from "isomorphic-unfetch"
+import {NextSFC} from "next"
 
-const Index = (props) => (
+interface Props {
+    shows: any
+}
+
+const Index: NextSFC<Props> = (props) => (
     <Layout>
         <h1>Batman TV Shows</h1>
         <ul>

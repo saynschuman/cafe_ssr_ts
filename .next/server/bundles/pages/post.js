@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -181,26 +181,26 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 
 var Post = function Post(props) {
-  return __WEBPACK_IMPORTED_MODULE_1_react__["createElement"](__WEBPACK_IMPORTED_MODULE_2__components_MyLayout__["a" /* default */], {
+  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_MyLayout__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 12
     }
-  }, __WEBPACK_IMPORTED_MODULE_1_react__["createElement"]("h1", {
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 13
     }
-  }, props.show.name), __WEBPACK_IMPORTED_MODULE_1_react__["createElement"]("p", {
+  }, props.show.name), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 14
     }
-  }, props.show.summary.replace(/<[/]?p>/g, "")), __WEBPACK_IMPORTED_MODULE_1_react__["createElement"]("img", {
+  }, props.show.summary.replace(/<[/]?p>/g, "")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("img", {
     src: props.show.image.medium,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 15
     }
   }));
 };
@@ -249,7 +249,7 @@ function () {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/post.tsx");
