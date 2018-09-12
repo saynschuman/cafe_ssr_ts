@@ -1,0 +1,17 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "max-line-length": [255],
+    "linebreak-style": [true, "LF"],
+    "no-console": false,
+    "no-unused-expression": true,
+    "ordered-imports": false,
+    "member-access": [true, "no-public"],
+    "object-literal-sort-keys": false,
+    "curly": [true, "ignore-same-line"],
+    "semicolon": [true, "never"],
+    "no-var-requires": false,
+    "interface-name": [false, "never-prefix"],
+    "no-shadowed-variable": false
+  }
+}

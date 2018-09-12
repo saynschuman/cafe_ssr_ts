@@ -1,0 +1,11 @@
+webpackHotUpdate(0,{
+
+/***/ "./pages/index.tsx":
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: SyntaxError: /Users/foxtrot/react/cafe_ssr/pages/index.tsx: Unexpected token (7:11)\n\n   5 | import { IndexProps } from \"../types\"\n   6 | \n>  7 | const Index: React.SFC<IndexProps> = (props) => {\n     |            ^\n   8 |   return (\n   9 |     <Layout>\n  10 |       <h1>Batman TV Shows</h1>\n    at _class.raise (/Users/foxtrot/react/cafe_ssr/node_modules/babylon/lib/index.js:778:15)\n    at _class.unexpected (/Users/foxtrot/react/cafe_ssr/node_modules/babylon/lib/index.js:2063:16)\n    at _class.parseVar (/Users/foxtrot/react/cafe_ssr/node_modules/babylon/lib/index.js:4543:18)\n    at _class.parseVarStatement (/Users/foxtrot/react/cafe_ssr/node_modules/babylon/lib/index.js:4369:10)\n    at _class.parseStatementContent (/Users/foxtrot/react/cafe_ssr/node_modules/babylon/lib/index.js:3976:21)\n    at _class.parseStatement (/Users/foxtrot/react/cafe_ssr/node_modules/babylon/lib/index.js:3926:17)\n    at _class.parseBlockOrModuleBlockBody (/Users/foxtrot/react/cafe_ssr/node_modules/babylon/lib/index.js:4470:23)\n    at _class.parseBlockBody (/Users/foxtrot/react/cafe_ssr/node_modules/babylon/lib/index.js:4457:10)\n    at _class.parseTopLevel (/Users/foxtrot/react/cafe_ssr/node_modules/babylon/lib/index.js:3902:10)\n    at _class.parse (/Users/foxtrot/react/cafe_ssr/node_modules/babylon/lib/index.js:5250:17)\n    at parse (/Users/foxtrot/react/cafe_ssr/node_modules/babylon/lib/index.js:9972:38)\n    at parser (/Users/foxtrot/react/cafe_ssr/node_modules/next/node_modules/@babel/core/lib/transformation/normalize-file.js:106:33)\n    at normalizeFile (/Users/foxtrot/react/cafe_ssr/node_modules/next/node_modules/@babel/core/lib/transformation/normalize-file.js:53:11)\n    at runSync (/Users/foxtrot/react/cafe_ssr/node_modules/next/node_modules/@babel/core/lib/transformation/index.js:34:41)\n    at runAsync (/Users/foxtrot/react/cafe_ssr/node_modules/next/node_modules/@babel/core/lib/transformation/index.js:25:14)\n    at /Users/foxtrot/react/cafe_ssr/node_modules/next/node_modules/@babel/core/lib/transform.js:32:34");
+
+/***/ })
+
+})
+//# sourceMappingURL=0.9dac709d0f865013e112.hot-update.js.map
